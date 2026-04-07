@@ -1,0 +1,91 @@
+/* ============================================
+   DESIGN TOKENS — Light & Dark Themes
+   Controlled via data-theme attribute on <html>
+   ============================================ */
+
+:root,
+[data-theme='light'] {
+  /* Primary */
+  --color-primary: #4555b7;
+  --color-primary-dim: #3949ab;
+  --color-primary-container: #dee0ff;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #00105c;
+
+  /* Secondary */
+  --color-secondary: #526074;
+  --color-secondary-container: #d5e3fc;
+
+  /* Tertiary */
+  --color-tertiary: #4a4bd7;
+  --color-tertiary-container: #7073ff;
+
+  /* Surface hierarchy */
+  --color-surface: #f7f9fb;
+  --color-surface-dim: #d7dadd;
+  --color-surface-container: #e8eff3;
+  --color-surface-container-low: #f0f4f7;
+  --color-surface-container-high: #e1e9ee;
+  --color-surface-container-highest: #d9e4ea;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-bright: #f7f9fb;
+  --color-surface-variant: #e0e2ec;
+
+  /* On-surface */
+  --color-on-surface: #1b1b1f;
+  --color-on-surface-variant: #44474e;
+
+  /* Outline */
+  --color-outline: #717c82;
+  --color-outline-variant: #a9b4b9;
+
+  /* Semantic */
+  --color-error: #9e3f4e;
+  --color-error-container: #ffdad6;
+  --color-on-error: #ffffff;
+  --color-success: #2e7d32;
+  --color-warning: #f57c00;
+}
+
+[data-theme='dark'] {
+  /* Primary */
+  --color-primary: #d0bcff;
+  --color-primary-dim: #b39ddb;
+  --color-primary-container: #8252ec;
+  --color-on-primary: #381e72;
+  --color-on-primary-container: #eaddff;
+
+  /* Secondary */
+  --color-secondary: #c0c1ff;
+  --color-secondary-container: #3131c0;
+
+  /* Tertiary */
+  --color-tertiary: #cebdff;
+  --color-tertiary-container: #7b60cb;
+
+  /* Surface hierarchy */
+  --color-surface: #0b1326;
+  --color-surface-dim: #0b1326;
+  --color-surface-container: #171f33;
+  --color-surface-container-low: #131b2e;
+  --color-surface-container-high: #222a3d;
+  --color-surface-container-highest: #2d3449;
+  --color-surface-container-lowest: #060e20;
+  --color-surface-bright: #31394d;
+  --color-surface-variant: #2d3449;
+
+  /* On-surface */
+  --color-on-surface: #e6e0e9;
+  --color-on-surface-variant: #cac4d0;
+
+  /* Outline */
+  --color-outline: #948ea1;
+  --color-outline-variant: #494455;
+
+  /* Semantic */
+  --color-error: #ffb4ab;
+  --color-error-container: #93000a;
+  --color-on-error: #690005;
+  --color-success: #66bb6a;
+  --color-warning: #ffb74d;
+}
