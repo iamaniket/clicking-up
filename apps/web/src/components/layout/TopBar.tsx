@@ -1,4 +1,5 @@
 import { ThemeToggle } from '../ui/ThemeToggle';
+import { Avatar } from '../ui/Avatar';
 
 export function TopBar() {
   return (
@@ -23,10 +24,10 @@ export function TopBar() {
         </button>
         <ThemeToggle />
         <div className="h-9 w-9 rounded-full bg-primary-container">
-          <img
+          <Avatar
             src="https://api.dicebear.com/9.x/avataaars/svg?seed=Alex"
             alt="Avatar"
-            className="h-full w-full rounded-full"
+            size="md"
           />
         </div>
       </div>
